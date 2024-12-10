@@ -21,7 +21,11 @@ public class Pposicionespares {
             }
         }
 
+         // Cálculo y salida
+        double promedioPares = countPares > 0 ? (double) sumaPares / countPares : 0;
+        System.out.printf("Promedio de valores en posiciones pares: %.2f%n", promedioPares);
 
+        scanner.close();
        
     }
 }    
